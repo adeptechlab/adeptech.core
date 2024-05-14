@@ -1,9 +1,10 @@
 package billing
 
 import (
-	"github.com/onqlavelabs/onqlave.core/contracts/acl"
-	"github.com/onqlavelabs/onqlave.core/contracts/common"
 	"time"
+
+	"github.com/adeptechlab/adeptech.core/contracts/acl"
+	"github.com/adeptechlab/adeptech.core/contracts/common"
 )
 
 type BillingContract struct {

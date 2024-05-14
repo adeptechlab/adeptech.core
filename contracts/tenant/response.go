@@ -1,6 +1,6 @@
 package tenant
 
-import "github.com/onqlavelabs/onqlave.core/contracts/common"
+import "github.com/adeptechlab/adeptech.core/contracts/common"
 
 type AddTenantResponse struct {
 	common.BaseErrorResponse

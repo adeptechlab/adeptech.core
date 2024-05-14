@@ -8,7 +8,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/onqlavelabs/onqlave.core/errors"
+	"github.com/adeptechlab/adeptech.core/errors"
 )
 
 // A Logger provides fast, leveled, structured logging. All methods are safe

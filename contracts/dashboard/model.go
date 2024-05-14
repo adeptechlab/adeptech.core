@@ -10,10 +10,10 @@ type Operations struct {
 }
 
 type Insight struct {
-	NumberOfArx          int `json:"number_of_arx"`
-	NumberOfApplications int `json:"number_of_applications"`
-	NumberOfApiKeys      int `json:"number_of_apikeys"`
-	NumberOfUsers        int `json:"number_of_users"`
+	// NumberOfArx          int `json:"number_of_arx"`
+	// NumberOfApplications int `json:"number_of_applications"`
+	// NumberOfApiKeys      int `json:"number_of_apikeys"`
+	// NumberOfUsers        int `json:"number_of_users"`
 }
 
 type Event struct {

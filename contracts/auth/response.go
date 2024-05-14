@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"github.com/onqlavelabs/onqlave.core/contracts/common"
+	"github.com/adeptechlab/adeptech.core/contracts/common"
 )
 
 type RegistrationStatusResponse struct {

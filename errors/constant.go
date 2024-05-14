@@ -30,15 +30,6 @@ const (
 	KeyInternalAuthInvitationLinkErr = "internal_auth_invitation_link_err"
 	KeyInternalAuthCreateTokenErr    = "internal_auth_create_token_err"
 
-	KeyInternalDaprInitErr          = "internal_dapr_init_err"
-	KeyInternalDaprPublishErr       = "internal_dapr_publish_err"
-	KeyInternalDaprGetStateErr      = "internal_dapr_get_state_err"
-	KeyInternalDaprSaveStateErr     = "internal_dapr_save_state_err"
-	KeyInternalDaprStateNotFoundErr = "internal_dapr_state_not_found_err"
-	KeyInternalDaprDeleteStateErr   = "internal_dapr_delete_state_err"
-	KeyInternalDaprLockErr          = "internal_dapr_lock_err"
-	KeyInternalDaprUnLockErr        = "internal_dapr_unlock_err"
-
 	KeyInternalQuotaCountErr                      = "internal_quota_count_err"
 	KeyInternalQuotaGetSubscriptionErr            = "internal_quota_get_subscription_err"
 	KeyInternalQuotaGetSubscriptionTypeProductErr = "internal_quota_get_subscription_type_product_err"
@@ -77,16 +68,6 @@ const (
 	ScopeService    = "service"
 	ScopeRepository = "repository"
 	ScopeInternal   = "internal"
-	ScopeCLI        = "cli"
-)
-
-const (
-	KeyCLINotLoggedIn          = "cli_not_logged_in"
-	KeyCLIMissingRequiredField = "cli_missing_required_field"
-	KeyCLIInvalidValue         = "cli_invalid_value"
-	KEyCLIEmptyData            = "cli_empty_data"
-	KeyCLIRenderDataFailed     = "cli_render_data_failed"
-	KeyCLIEnvironmentNotConfig = "cli_environment_not_config"
 )
 
 const (

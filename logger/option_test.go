@@ -2,10 +2,11 @@ package logger
 
 import (
 	"fmt"
-	"go.uber.org/zap/zapcore"
 	"testing"
 
-	"github.com/onqlavelabs/onqlave.core/logger/filter"
+	"go.uber.org/zap/zapcore"
+
+	"github.com/adeptechlab/adeptech.core/logger/filter"
 	"gopkg.in/go-playground/assert.v1"
 )
 

@@ -3,8 +3,8 @@ package tenant
 import (
 	"time"
 
-	"github.com/onqlavelabs/onqlave.core/contracts/acl"
-	"github.com/onqlavelabs/onqlave.core/contracts/common"
+	"github.com/adeptechlab/adeptech.core/contracts/acl"
+	"github.com/adeptechlab/adeptech.core/contracts/common"
 )
 
 type TenantId struct {
@@ -35,10 +35,10 @@ type TenantDashboard struct {
 }
 
 type DasboardInsight struct {
-	NumberOfArx          int `json:"number_of_arx"`
-	NumberOfApplications int `json:"number_of_applications"`
-	NumberOfApiKeys      int `json:"number_of_apikeys"`
-	NumberOfUsers        int `json:"number_of_users"`
+	// NumberOfArx          int `json:"number_of_arx"`
+	// NumberOfApplications int `json:"number_of_applications"`
+	// NumberOfApiKeys      int `json:"number_of_apikeys"`
+	// NumberOfUsers        int `json:"number_of_users"`
 }
 
 type DashboardEvent struct {

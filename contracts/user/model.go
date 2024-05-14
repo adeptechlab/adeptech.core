@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/onqlavelabs/onqlave.core/contracts/acl"
+	"github.com/adeptechlab/adeptech.core/contracts/acl"
 )
 
 type Users struct {

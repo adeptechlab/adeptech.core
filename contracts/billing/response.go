@@ -1,6 +1,6 @@
 package billing
 
-import "github.com/onqlavelabs/onqlave.core/contracts/common"
+import "github.com/adeptechlab/adeptech.core/contracts/common"
 
 type GetCurrentSubscription struct {
 	common.BaseErrorResponse
